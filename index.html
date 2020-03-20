@@ -3,32 +3,70 @@
 
     <head>
         <meta charset="utf-8">
-        <title>filipeyoga portfoilio</title>
+        <title>filipeyogaPortfolio</title>
+        <!-- <link href="style.css" rel="stylesheet"> -->
+        <style>
+            body {
+                background-color: rgb(28, 26, 29);
+                color: whitesmoke;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: small;
+                padding-left: 20px;
+            }
+            a {
+                color: silver;
+            }
+            #top {
+               padding-top: 30px;
+               padding-bottom: 30px;
+               font-size: 20px;
+            }
+            #foot {
+                color:silver;
+                text-align: center;
+                padding-top: 15%;
+            }
+            #photo {
+                float: right;
+                padding-right: 10%;
+            }
+        
+        </style>
     </head>
     <body>
-        <h1>Filipe de Castro's portfolio</h1>
+            <h1 id="top"><em>./filipeyoga</em><strong></strong></h1>
 
-        <a href="#welcome"><h4>Welcome!</h4></a> 
-        <a href="#welcome"><h4>My skills</h4></a>
-        <a href="#welcome"><h4>Contact me</h4></a>
+        <div id="photo"><img src="images/me.jpeg" width="200" id="me">
+        </div>
+            
+        <div>
+            <p id="welcome">Hello, my name is <strong>Filipe de Castro Oliveira.</strong> <br>
+                    I'm from Itabirito, State of Minas Gerais, Brazil. <br>
+                    Nowadays, I'm a Software Developent Student at <a href="http://betrybe.com" target="_blank"><strong>Trybe</strong></a>, <em>"the school of the future"</em>.<br>
+                    I'm also a Public Administration undergraduate at <a href="http://novosite.fjp.mg.gov.br" target="_blank"><strong>João Pinheiro Foundation</strong></a>.
+                </p>
+            <h3 id="skills">Skills I'm working on</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>English</li>
+                <li>Spanish</li>
+            </ul>
 
-        <img src="images/me.jpeg" width="400" id="me">
-        
-        <p id="welcome">Hellow, this is me, my name is <strong>Filipe de Castro Oliveira.</strong> I'm from Itabirito, State of Minas Gerais, Brazil. Nowadays I'm a Software Developent Student at <strong><a href="http://betrybe.com" target="_blank">Trybe</a></strong>, the school of the future.</p>I'm also a Public Administration student at <a href="http://novosite.fjp.mg.gov.br" target="_blank">João Pinheiro Foundation</a>.
+            <h3 id="contact">Contact me</h3>
+            <ul>
+                <li><a href="https://github.com/filipeyoga">GitHub</a></li>
+                <li><a href="http://linkedin.com/filipeyoga">Linkedin</a></li>
+                <li><a href="mailto:filipeyoga@gmail.com">Gmail</a></li>
+            </ul>
+     
+        </div>
+        <!-- <div>
+            <h5><a href="#top">Back to top</a></h5>
+        </div> -->
 
-    <h2 id="skills">My mains skills are:</h2>
-    <ul>
-        <li>Communication</li>
-        <li>Creativity</li>
-        <li>Desire to change the world</li>
-    </ul>
-
-    <h2 id="contact">My social media / contact</h2>
-    <ul>
-        <li><a href="https://github.com/filipeyoga">GitHub</a></li>
-        <li><a href="mailto:filipeyoga@gmail.com">Gmail</a></li>
-    </ul>
-
-    <h4><a href="#me">Back to photo</a></h4>
+        <div>
+            <h6 id="foot">Created by Filipe de Castro Oliveira ©‎ 2020</h6>
+        </div>
     </body>
 </html>
