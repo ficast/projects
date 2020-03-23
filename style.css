@@ -1,0 +1,67 @@
+
+body {
+    background-color: rgb(28, 26, 29);
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 18px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+}
+
+a {
+    color: silver;
+}
+a:hover {
+    color: rgb(102, 101, 101);
+    background-color:rgb(233, 250, 122);
+}
+
+#top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Major Mono Display";
+}
+
+#foot {
+    color: silver;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#photo {
+    float: right;
+    border:0px white solid;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: center;
+    margin: 50px;
+    
+}    
+
+#header {
+    background-color:rgb(233, 250, 122);
+    color: rgb(28, 26, 29);
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.about {
+    padding-top: 1%;
+    width: 70%;
+    padding-right: 35px;
+
+
+}
+
+.contrast {
+    color: rgb(233, 250, 122)
+}
+
+.blog-image {
+    text-align: center;
+}

@@ -2,64 +2,67 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
-        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet"><style>
-            body {
-                background-color: rgb(28, 26, 29);
-                color: whitesmoke;
-                font-family: 'Courier New', Courier, monospace;
-                font-size: small;
-                padding-left: 1%;
-                padding-right: 1%;
-                text-align: justify;
-            }
-    
-            a {
-                color: silver;
-            }
-    
-            #text {
-                padding: 20px 50px 20px 50px;
-            }
-    
-            #image {
-                color: silver;
-                padding-top: 1%;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            h1 {
-                padding-top: 20px;
-                padding-bottom: 20px;
-                font-size: 20px;
-                padding-left: 10px;
-                font-family: "Major Mono Display";
-                background-color: whitesmoke;
-                color: rgb(28, 26, 29);
-                border-radius: 4px;
-            }
-        </style>
+        <title>filipeyoga.Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type:"text/css">
+        
     </head>
     <body>
         
-        <h1><em style="font-size: 15px;">Filipeyoga.</em>Blog</h1>
-
-        <h3>Contents</h3>
+        <div id="header">
+            <h1 id="top"><em style="font-size: 15px;">Filipeyoga.</em><strong>Blog</strong></h1>
+        </div>
+        <div>
+       
+        <h2>Contents</h2>
         <ul>
-            <li><a href="post1">CSS Started!</a></li>
+            <!-- <li><a href="post1">NOVO POST</a></li> -->
+            <li><a href="#post2">Corona Virus x Home Office</a></li>
+            <li><a href="#post1">CSS Started!</a></li>
         </ul>
-        
+        <hr>
         <p>Back to <a href="index.html">home</a></p>
-
-        <h2 id="post1 title">CSS Started!</h2>
-        <h6>Posted on Mar 20, 2020</h6>
+        </div>
+        <hr>
         
-        <p id="text">Today I started my CSS learning journey.
-        I did a bunch of amazing things like change the page and text colors, choose the font family and style and add some more visual attraction to my HTML pages.
-        CSS that means Cascading Style Sheets is the perfect toolbox to made all this and much more happen.</p>
-        <img id="image" src="/images/CSS.png" width=400px>
+        <!-- Modelo para postagem
+        <div>
+            <span>
+                <h2 id="post1 title">TITULO</h2>
+                <h6>Posted on Mar 20, 2020</h6>
         
+                <p id="text">Text</p>
+            </span>
+            <div class="blog-image">
+                <img src="imagem" width=400px>
+            </div>
+        </div> -->
+        
+        <div>
+            <span>
+                <h2 id="post2">Corona Virus x Home Office</h2>
+                <h6>Posted on Mar 23, 2020</h6>
+        
+                <p id="text">We're living in confined way since last week, the cause, everybody knows: Corona Virus. To me, it's been a great opportunity to learn how to work home-office. One of the best tips I received is to establish a routine. Give it a chance!
+                </p>
+            </span>
+            <div class="blog-image">
+                <img src="/images/home-office.jpg" width=400px>
+            </div>
+        
+        <div>
+            <span>
+                <h2 id="post1">CSS Started!</h2>
+                <h6>Posted on Mar 20, 2020</h6>
+        
+                <p id="text">Today I started my CSS learning journey.
+                I did a bunch of amazing things like change the page and text colors, choose the font family and style and add some more visual attraction to my HTML pages.
+                CSS that means Cascading Style Sheets is the perfect toolbox to made all this and much more happen.</p>
+            </span>
+            <div class="blog-image">
+                <img src="/images/CSS.png" width=400px>
+            </div>
+        </div>
         
     </body>
 </html>
