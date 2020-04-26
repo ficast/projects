@@ -1,0 +1,111 @@
+html, body {
+height: 100%; /* necessary */
+margin: 0;
+padding: 0;
+}
+
+.body {
+  background: rgb(165, 199, 188);
+  color: black;
+  display: flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  height: 100%;
+  justify-content: center;
+  padding: auto;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 430px) {
+  p {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .title {
+    flex-grow: 1
+  }
+
+  .dice{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    justify-content: space-between;
+    align-content: center;
+
+  
+  }
+
+  .option {
+    
+    display: flex;
+    padding: 0;
+    margin: 1%;
+    width: 100%;
+    height: 30%;
+    background: rgb(75, 75, 121);
+    flex: 1 0 20%;
+    align-items: center;
+    border-radius: 5%;
+    flex: 1 0 30%;
+    border: 2px solid rgb(37, 15, 136) ;
+
+  }
+
+  .text {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+  .button {
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: salmon;
+    border-radius: 5%;
+    border: none;
+    border: 1px rgb(134, 18, 5) solid;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .select {
+    border: 2px solid
+  }
+
+  .result {
+    font-size: 8em;
+    background:lightgray;
+    width: 90%;
+    color: rgb(19, 151, 107);
+  }
+
+}
