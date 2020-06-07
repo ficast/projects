@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Meme Generator by Filipe de Castro</title>
+  </head>
+
+  <body>
+    <h1>Meme Generator</h1>
+    <form>
+      <label for="text-input">Type your text: </label>
+      <input id="text-input" type="text" maxlength="60" autocomplete="off" />
+      <br />
+      <label for="meme-insert">Select your image</label>
+      <input type="file" id="meme-insert" /><br />
+    </form>
+    <div id="meme-image-container" class="meme-image-container">
+      <p id="meme-text" class="meme-text"></p>
+      <img id="meme-image" class="meme-image" src="" alt="" />
+    </div>
+
+    <button id="button1">Frame 1</button>
+    <button id="button2">Frame 2</button>
+    <button id="button3">Frame 3</button>
+
+    <img id="meme-1" class="miniature" onclick="openImage('imgs/meme1.jpeg')" src="imgs/meme1.jpeg">
+    <img id="meme-2" class="miniature" onclick="openImage('imgs/meme2.jpeg')" src="imgs/meme2.jpeg">
+    <img id="meme-3" class="miniature" onclick="openImage('imgs/meme3.jpeg')" src="imgs/meme3.jpeg">
+    <img id="meme-4" class="miniature" onclick="openImage('imgs/meme4.jpeg')" src="imgs/meme4.jpeg">
+
+    <script src="script.js"></script>
+  </body>
+</html>
