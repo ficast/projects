@@ -1,0 +1,40 @@
+.color1 {
+  border: 1px black solid;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.color2 {
+  border: 1px black solid;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.color3 {
+  border: 1px black solid;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.color4 {
+  border: 1px black solid;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.pixel-board {
+  font-size: 0;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px black solid;
+  display: inline-block;
+  height: 40px;
+  line-height: 0;
+  width: 40px;
+}
