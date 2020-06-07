@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+}
+
+.lista-tarefas li {
+  cursor: pointer;
+}
+
+.cinza {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
