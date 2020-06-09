@@ -1,15 +1,43 @@
+
 .Pokedex {
-text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+.Pokedex h4 {
+  margin: 0 auto;
 }
 
 .Pokedex-cards {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
+.Winner {
+  background-color: rgb(105, 194, 105);
+}
+
+.Looser {
+  background-color: rgb(231, 61, 61);
+}
+
+.textWinner {
+  color: rgb(105, 194, 105);
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.textLooser {
+  color: rgb(231, 61, 61);
+  margin: 10px;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops

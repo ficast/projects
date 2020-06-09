@@ -8,7 +8,7 @@ export default class extends Component {
   render() {
     return(
       <header className="Header">
-        <h1 className="Header-bar">PokeLibrary</h1>
+        <h1 className="Header-bar">Pokemon Battle</h1>
         <FontAwesomeIcon className="Header-bar" icon={faBars} size="2x" style={{ color: '#eceff1' }} />
       </header>
     )

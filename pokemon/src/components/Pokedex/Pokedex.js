@@ -9,9 +9,17 @@ export default class Pokedex extends Component {
   }
 
   render() {
+    const { isWinner, exp } = this.props;
+    let classResult;
+    isWinner ?
+    classResult = "Winner"
+    : classResult = "Looser"
+
     return (
       <div className="Pokedex">
-        <div className="Pokedex-cards">
+        <h2 className={`text${classResult}`}>{classResult}</h2>
+        <h4>Total de pontos: {exp}</h4>
+        <div className={`Pokedex-cards ${classResult}`}>
           {this.props.pokemon.map((p) => {
             return (
               <Pokecard
