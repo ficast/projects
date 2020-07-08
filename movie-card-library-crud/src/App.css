@@ -1,0 +1,79 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+body:visited {
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  background-color: navy;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.header-nav {
+  display: flex;
+  height: 5vmax;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header-nav:visited {
+  text-decoration: none;
+}
+
+.movie-list {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+.movie-card {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  margin: 5% auto;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.movie-card img {
+  width: 95%;
+}
+
+.movie-card p {
+  font-size: 0.5em;
+}
+
+.movie-card-h1 {
+  font-size: 0.8em;
+}
+
+.movie-card-details {
+  background-color: orangered;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+.flex-line {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}

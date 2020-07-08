@@ -1,0 +1,256 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.page-content {
+  align-items: flex-start;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding: 0 75px;
+}
+
+/* BLOCO DE ESTILOS HEADER */
+.header {
+  align-items: center;
+  background-color: rgba(0, 0, 128, 0.8);
+  color: white;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 0;
+  min-height: 15vh;
+  padding: 0 5%;
+}
+
+.search-form {
+  background-color: white;
+  display: flex;
+  flex-flow: nowrap;
+  min-width: 52.5vw;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.search-button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 40px;
+}
+
+/* BLOCO DE ESTILOS MAIN */
+.main {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.search-results {
+  color: rgba(38, 38, 37, 0.6);
+  margin: 0 0 15px 5px;
+}
+
+/* BLOCO DE ESTILOS ProductCard */
+.ProductCard {
+  align-items: flex-start;
+  background-color: white;
+  color: rgb(38, 38, 37);
+  display: flex;
+  flex-flow: nowrap;
+  height: fit-content;
+  justify-content: flex-start;
+  margin: 2px auto;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 99%;
+}
+
+.ProductCard-product-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ProductCard-text-content {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.ProductCard-content-bottom-part {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 0;
+  opacity: 0;
+  transition: ease 1s;
+}
+
+.ProductCard:hover .ProductCard-content-bottom-part {
+  opacity: 1;
+  transition: ease 1s;
+}
+
+.free-shipping {
+  color: green;
+}
+
+.ProductCard a {
+  color: blue;
+}
+
+.btn-add-to-cart {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row;
+  padding: 0;
+}
+
+.ProductCard img {
+  width: 10vw;
+}
+
+/* BLOCO DE ESTILOS PRODUCTDETAIL */
+.ProductDetail {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.ProductDetail-top-part {
+  display: flex;
+  flex-flow: row;
+}
+
+.ProductDetail-left-part {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.ProductDetail-left-part img {
+  width: 300px;
+}
+
+.ProductDetail-right-part {
+  align-items: flex-start;
+  color: rgba(38, 38, 37, 0.8);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin: 0 5px;
+  text-align: left;
+  width: 60%;
+}
+
+.ProductDetail-product-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ProductDetail-price {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.ProductDetail-shop-opt {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.ProductDetail-textarea {
+  height: 20vh;
+  resize: none;
+  width: 30vw;
+}
+
+.ProductDetail a {
+  color: blue;
+  margin: 10vh 0 0 2vw;
+  width: fit-content;
+}
+
+/* BLOCO DE ESTILOS SIDEBAR */
+.nav {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-flow: column;
+  height: fit-content;
+  max-width: 20vw;
+  min-width: 20vw;
+  padding-top: 25px;
+}
+
+.nav a {
+  color: rgb(27, 27, 27);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px 8px;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: ease 1s;
+}
+
+.nav a:hover {
+  font-weight: 400;
+  opacity: 1;
+  transition: ease 1s;
+}
+
+.flex {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-flow: row;
+  margin: auto 30px;
+  text-decoration: none;
+}
+
+/* ESTILOS OUTRAS TELAS */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
