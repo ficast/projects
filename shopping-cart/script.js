@@ -111,7 +111,7 @@ window.onload = async function onload() {
   const cartItems = document.querySelector('.cart__items');
 
   if (localStorage.getItem('cartItemsKey')) {
-    cartItems.innerHTML = localStorage.getItem('cartItemsKey').toString();
+    cartItems.innerHTML = localStorage.getItem('cartItemsKey');
     valor = Array.from(cartItems.children)
       .map(element => Number(element.id))
       .reduce((acc, cur) => acc + cur);

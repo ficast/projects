@@ -1,3 +1,24 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  height: 5vmax;
+}
+
+.header h1 {
+  margin: 0 4%;
+  padding: 0;
+}
+
+
+
 .top-bar {
   align-items: center;
   display: flex;
@@ -31,7 +52,7 @@
 }
 
 .item {
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
   box-sizing: border-box;
   display: flex;
@@ -56,7 +77,8 @@
 }
 
 .item .item__add {
-  background-color: green;
+  background-color: rgb(9, 21, 46);
+  color: white;
   border: 0;
   cursor: pointer;
   margin: 0;
@@ -91,4 +113,11 @@
 
   100% { transform: rotate( 360deg ); }
 
+}
+
+.empty-cart {
+  width: 30%;
+  height: 1%;;
+  margin: 3px;
+  cursor: pointer;
 }
